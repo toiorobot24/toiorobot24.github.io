@@ -569,9 +569,9 @@ footer {
 
 .footer-image {
     position: absolute;
-    right: 20px; /* Distanza dal lato destro del footer */
-    bottom: 15px; /* Distanza dal lato inferiore del footer */
-    width: 100px; /* Larghezza dell'immagine */
-    height: auto; /* Mantieni le proporzioni dell'immagine */
+    right: 20px; 
+    bottom: 15px;
+    width: 100px; 
+    height: auto; 
     filter: invert(1) opacity(50%);
 }
