@@ -17,6 +17,10 @@ html, body {
     flex-direction: column;
 }
 
+.main-content {
+    flex: 1; /* Occupa lo spazio rimanente tra l'header e il footer */
+}
+
 body {
     padding-top: 100px; /* Altezza dell'header */
     font-family: 'Inter', sans-serif;
@@ -205,7 +209,7 @@ header h1 {
 }
 .highlight-section {
     background: linear-gradient(180deg, #161b22, #1a1f2e);
-    margin: 35px;
+    margin: 45px;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -312,7 +316,7 @@ header h1 {
     backdrop-filter: blur(30px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: 0.5s ease;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     display: inline-block; 
     text-decoration: none;
 }
@@ -342,7 +346,6 @@ header h1 {
 
 @media (max-width: 1176px) {
     
-
     header{
         padding: auto;
     }
